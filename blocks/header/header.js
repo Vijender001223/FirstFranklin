@@ -109,7 +109,7 @@ export default async function decorate(block) {
       if (section) section.classList.add(`nav-${c}`);
     });
 	
-	    const navbrand = nav.querySelector('.nav-brand p');
+	    const navbrand = nav.querySelector('.nav-brand');
 		alert("navbrand........."+navbrand);
 		navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
 		navbrand.setAttribute('itemtype','urn:fnk:type/document');

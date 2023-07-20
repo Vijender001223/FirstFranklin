@@ -110,7 +110,7 @@ export default async function decorate(block) {
     });
 	
 	    const navbrand = nav.querySelector('.nav-brand');
-		alert(navbrand);
+		alert("navbrand........."+navbrand);
 		//navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
 		//navbrand.setAttribute('itemtype','urn:fnk:type/document');
 
@@ -118,7 +118,7 @@ export default async function decorate(block) {
 
 
     const navSections = nav.querySelector('.nav-sections');
-	  		alert(navSections);
+	  		alert("navsection.........."+navSections);
 
     if (navSections) {
       navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {

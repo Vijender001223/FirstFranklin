@@ -15,12 +15,5 @@ export default function decorate(block) {
   ul.querySelectorAll('img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
   block.textContent = '';
   block.append(ul);
-   const navbrand = document.querySelector('.hero block');
-		navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
-		navbrand.setAttribute('itemtype','urn:fnk:type/document');
-
-	     const titleedit = navbrand.querySelector('h1');
-
-		titleedit.setAttribute('itemprop','title');
-		titleedit.setAttribute('itemtype','text');
+   
 }

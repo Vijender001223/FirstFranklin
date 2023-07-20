@@ -109,14 +109,7 @@ export default async function decorate(block) {
       if (section) section.classList.add(`nav-${c}`);
     });
 	
-	    const navbrand = nav.querySelector('.nav-brand');
-		navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
-		navbrand.setAttribute('itemtype','urn:fnk:type/document');
-
-	     const titleedit = navbrand.querySelector('a');
-
-		titleedit.setAttribute('itemprop','title');
-		titleedit.setAttribute('itemtype','text');
+	   
 
 
     const navSections = nav.querySelector('.nav-sections');

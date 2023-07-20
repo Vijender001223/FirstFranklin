@@ -28,4 +28,9 @@ export default async function decorate(block) {
   	navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
 		navbrand.setAttribute('itemtype','urn:fnk:type/document');
 
+	const titleedit = navbrand.querySelector('p');
+
+		titleedit.setAttribute('itemprop','title');
+		titleedit.setAttribute('itemtype','text');
+
 }

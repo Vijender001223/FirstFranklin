@@ -110,6 +110,9 @@ export default async function decorate(block) {
     });
 	
 	    const navbrand = nav.querySelector('.nav-brand .p');
+		alert(navbrand);
+		//navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
+		//navbrand.setAttribute('itemtype','urn:fnk:type/document');
 
 		
 

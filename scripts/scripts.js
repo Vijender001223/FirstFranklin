@@ -28,6 +28,14 @@ function buildHeroBlock(main) {
     section.append(buildBlock('hero', { elems: [picture, h1] }));
     main.prepend(section);
   }
+  const navbrand = document.querySelector('.hero block');
+		navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
+		navbrand.setAttribute('itemtype','urn:fnk:type/document');
+
+	     const titleedit = navbrand.querySelector('h1');
+
+		titleedit.setAttribute('itemprop','title');
+		titleedit.setAttribute('itemtype','text');
 }
 
 /**

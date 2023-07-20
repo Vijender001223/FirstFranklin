@@ -31,11 +31,12 @@ function buildHeroBlock(main) {
   const navbrand = document.querySelector('.hero block');
 		navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
 		navbrand.setAttribute('itemtype','urn:fnk:type/document');
-
+alert(navbrand);
 	     const titleedit = navbrand.querySelector('h1');
+alert(titleedit);
 
-		titleedit.setAttribute('itemprop','title');
-		titleedit.setAttribute('itemtype','text');
+		//titleedit.setAttribute('itemprop','title');
+		//titleedit.setAttribute('itemtype','text');
 }
 
 /**

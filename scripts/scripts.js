@@ -29,8 +29,8 @@ function buildHeroBlock(main) {
     main.prepend(section);
   }
   const navbrand = document.querySelector('.hero block');
-		navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
-		navbrand.setAttribute('itemtype','urn:fnk:type/document');
+		//navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
+		//navbrand.setAttribute('itemtype','urn:fnk:type/document');
 alert(navbrand);
 	     const titleedit = navbrand.querySelector('h1');
 alert(titleedit);

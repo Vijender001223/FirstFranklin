@@ -24,6 +24,6 @@ export default async function decorate(block) {
     block.append(footer);
   }
   const navbrand = document.querySelector('.footer-wrapper');
-      alert("nav........."+navbrand);
+      alert("nav123........."+navbrand);
 
 }

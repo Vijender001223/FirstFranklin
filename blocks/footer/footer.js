@@ -23,7 +23,7 @@ export default async function decorate(block) {
     decorateIcons(footer);
     block.append(footer);
   }
-  const navbrand = footer.querySelector('.footer-wrapper');
+  const navbrand = document.querySelector('.footer-wrapper');
       alert("nav........."+navbrand);
 
 }

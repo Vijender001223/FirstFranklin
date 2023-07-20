@@ -30,5 +30,6 @@ export default async function decorate(block) {
 
 		titleedit.setAttribute('itemprop','title');
 		titleedit.setAttribute('itemtype','text');
+	
 
 }

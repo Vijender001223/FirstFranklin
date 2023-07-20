@@ -114,6 +114,9 @@ export default async function decorate(block) {
 		navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
 		navbrand.setAttribute('itemtype','urn:fnk:type/document');
 
+	     var titleedit = navbrand.getElementsByTagName("a");
+	  alert(titleedit);
+
 		
 
 

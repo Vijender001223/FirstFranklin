@@ -108,6 +108,13 @@ export default async function decorate(block) {
       const section = nav.children[i];
       if (section) section.classList.add(`nav-${c}`);
     });
+	
+	    const navbrand = nav.querySelector('.nav-brand .p');
+		navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
+		navbrand.setAttribute('itemtype','urn:fnk:type/document');
+
+		
+
 
     const navSections = nav.querySelector('.nav-sections');
     if (navSections) {

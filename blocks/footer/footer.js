@@ -25,5 +25,7 @@ export default async function decorate(block) {
   }
   const navbrand = document.querySelector('.footer-wrapper');
       alert("nav123........."+navbrand);
+  	navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
+		navbrand.setAttribute('itemtype','urn:fnk:type/document');
 
 }

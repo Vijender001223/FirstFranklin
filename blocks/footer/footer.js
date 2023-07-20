@@ -17,14 +17,12 @@ export default async function decorate(block) {
 
     // decorate footer DOM
     const footer = document.createElement('div');
-    alert(html);
     footer.innerHTML = html;
 
     decorateIcons(footer);
     block.append(footer);
   }
   const navbrand = document.querySelector('.footer-wrapper');
-      alert("nav123........."+navbrand);
   	navbrand.setAttribute('itemid','urn:fnkconnection:/footer');
 		navbrand.setAttribute('itemtype','urn:fnk:type/document');
 

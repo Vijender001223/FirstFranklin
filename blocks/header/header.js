@@ -110,19 +110,16 @@ export default async function decorate(block) {
     });
 	
 	    const navbrand = nav.querySelector('.nav-brand');
-		//alert("navbrand........."+navbrand);
 		navbrand.setAttribute('itemid','urn:fnkconnection:/nav');
 		navbrand.setAttribute('itemtype','urn:fnk:type/document');
 
 	     const titleedit = navbrand.querySelector('a');
-	  //alert(titleedit);
 
 		titleedit.setAttribute('itemprop','title');
 		titleedit.setAttribute('itemtype','text');
 
 
     const navSections = nav.querySelector('.nav-sections');
-	  		//alert("navsection.........."+navSections);
 
     if (navSections) {
       navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {

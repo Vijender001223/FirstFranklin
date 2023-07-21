@@ -22,14 +22,14 @@ export default async function decorate(block) {
     decorateIcons(footer);
     block.append(footer);
   }
- /* const navbrand = document.querySelector('.footer-wrapper');
+  const navbrand = document.querySelector('.footer-wrapper');
   	navbrand.setAttribute('itemid','urn:fnkconnection:/footer');
 		navbrand.setAttribute('itemtype','urn:fnk:type/document');
 
 	const titleedit = navbrand.querySelector('p');
 
 		titleedit.setAttribute('itemprop','title');
-		titleedit.setAttribute('itemtype','text'); */
+		titleedit.setAttribute('itemtype','text'); 
 	
 
 }
